@@ -28,6 +28,8 @@
 if ( !in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) )
 	exit;
 
+load_plugin_textdomain('sgt-surcharge-woocommerce', false, basename( dirname( __FILE__ ) ) . '/languages/' );
+
 if (is_admin())
 {
 	add_action('admin_menu', 'add_surcharge_menu');
