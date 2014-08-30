@@ -3,7 +3,7 @@
 * Plugin Name: Surcharge for WooCommerce
 * Plugin URI: https://github.com/fransklaver/sgt-surcharge-woocommerce
 * Description: A plugin adding surcharge management to WooCommerce
-* Version: 0.1.0
+* Version: 1.0.0
 * Author: Frans Klaver
 * Author URI: https://github.com/fransklaver
 * License: GPL2
